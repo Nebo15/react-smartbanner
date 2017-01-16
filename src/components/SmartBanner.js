@@ -114,7 +114,7 @@ class SmartBanner extends Component {
   setSettingsByType() {
     const mixins = {
       ios: {
-        appMeta: 'apple-itunes-app',
+        appMeta: 'incorrect-apple-itunes-app',
         iconRels: ['apple-touch-icon-precomposed', 'apple-touch-icon'],
         getStoreLink: () =>
           `https://itunes.apple.com/${this.props.appStoreLanguage}/app/id`,
